@@ -11,8 +11,8 @@ services:
   db:
     image: postgres:latest
     environment:
-      POSTGRES_USER: rm94669
-      POSTGRES_PASSWORD: 140204
+      POSTGRES_USER: 
+      POSTGRES_PASSWORD: 
       POSTGRES_DB: oracle
     ports:
       - 1521:1521
